@@ -393,6 +393,8 @@ class MobileScanner(
             return
         }
 
+        isPaused = false
+
         lastScanned = null
         scanner = barcodeScannerFactory(barcodeScannerOptions)
 
