@@ -364,8 +364,6 @@ class MobileScanner(
         this.detectionTimeout = detectionTimeout
         this.returnImage = returnImage
         this.invertImage = invertImage
-
-        isPaused = false
         
         if (camera?.cameraInfo != null && preview != null && surfaceProducer != null && !isPaused) {
 
